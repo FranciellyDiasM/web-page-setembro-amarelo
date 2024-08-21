@@ -16,6 +16,26 @@
    h2 {text-align: center;}
 p {text-align: center;}
 div {text-align: left;}
+<!--Fazer caixas com textos-->
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: rgb(221, 129, 9);
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
 
 </style>
 </head>
@@ -38,6 +58,23 @@ div {text-align: left;}
         <li>quebro os ovos</li>
         <li>Misturo os ovos na frigideira</li>
     </ul>
+
+    <article class="all-browsers">
+        <h1>Uma caixa com outras dentro</h1>
+        <article class="browser">
+          <h2>Texto de uma caixa pequena</h2>
+          <p>Esta caixa tem q ficar dentro de uma caixa grande!</p>
+        </article>
+        <article class="browser">
+          <h2>Texto titulo da proxima caixinha</h2>
+          <p>uma descriçao qualquer</p>
+        </article>
+        <article class="browser">
+          <h2>Serão 3 caixas mesmo</h2>
+          <p>Testando caixas com textos.</p>
+        </article>
+
+      </article>
     <img src="https://www.fascinations.com/content/images/thumbs/0016963_doctor-who-tardis_620.png"/> 
 
     <h4>  Continuando...</h4>
