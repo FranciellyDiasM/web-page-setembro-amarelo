@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <title> Minha página Web </title>
+<style>
+    body{ 
+        background-color: #db1709f5;
+        color: rgb(14, 13, 13);
+    }
+    footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(104, 78, 175);
+  color: white;
+   } 
+   h2 {text-align: center;}
+p {text-align: center;}
+div {text-align: left;}
+
+<!--Fazer caixas com textos-->
+
+
+
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+
+.all-browsers > h1, .browser {
+  margin: 20px;
+  padding: 20px;
+}
+
+.browser {
+  background: rgb(155, 213, 231);
+  width: 50%;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+</style>
+</head>
+
+<body>
+
+    <footer style="position: fixed; margin-top: 20; display:flex; align-items: center; justify-content: center;
+     height: 35px; background-color: rgb(12, 26, 212); color: white; font-weight:bold; width: 30%;">
+                <h1>Aprendendo HTML</h1>
+
+    </footer>
+
+    <h2> Escrever coisas </h2>
+    <p>Experimentando coisas</p>
+    
+    <div>Fazer listas:</div>
+
+    <ul> <!--fazer uma lista (ul- pontos, ol- nuemrada)-->
+        <li> Pego os ovos</li>
+        <li>quebro os ovos</li>
+        <li>Misturo os ovos na frigideira</li>
+    </ul>
+
+
+
+
+    <article class="all-browsers">
+        <h1>Uma caixa com outras dentro</h1>
+        <article class="browser">
+          <h2>Texto de uma caixa pequena</h2>
+          <p>Esta caixa tem q ficar dentro de uma caixa grande!</p>
+        </article>
+        <article class="browser">
+          <h2>Texto titulo da proxima caixinha</h2>
+          <p>uma descriçao qualquer</p>
+        </article>
+        <article class="browser">
+          <h2>Serão 3 caixas mesmo</h2>
+          <p>Testando caixas com textos.</p>
+        </article>
+
+      </article>
+    <img src="https://www.fascinations.com/content/images/thumbs/0016963_doctor-who-tardis_620.png" width="100px"/>
+
+    <h4>  <a href="index-pagina.html">Voltar para pagina branca</a></h4>
+
+    <footer>
+        <p>Author: Francielly D.<br>
+            <!--criar hiperlink tag<a>-->
+        <a href="frandiasma@gepeto.com" target="_blank">frandiasma@gepeto.com</a></p>
+      </footer>
+    
+
+</body>
+
+</html>
