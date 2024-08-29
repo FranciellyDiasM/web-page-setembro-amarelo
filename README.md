@@ -1,3 +1,3 @@
 ## Meu projeto desenvolvido em aula
 
-[Duck Duck Go](https://franciellydiasm.github.io/aulaHTML/)
+[Github pages](https://franciellydiasm.github.io/aulaHTML/){:target="_blank"}
