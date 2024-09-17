@@ -16,17 +16,18 @@
   content: "";
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23212529' viewBox='0 0 16 16'%3E%3Cpath d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z'/%3E%3C/svg%3E") no-repeat center center / 100% auto;
 }
+/*  #FDFDA7   #FDFD22   #FFEE00  #FFDF32 #FEDA00  #D3A007  */
 
-.background {
-  padding: 0 5%;
-  /* Garante que o conteúdo tenha padding em relação à tela */
-}
 /*cabeçalho navegação*/
 nav h2 {
-  color: #7DE5F4;
+  color: black;
   font-size: 35px;
   cursor: pointer;
   letter-spacing: 2px;
+  margin-left: 20px;
+}
+span {
+  color: #FEDA00;
 }
 
 nav {
@@ -38,11 +39,7 @@ nav {
   width: 100%;
   /* Garante que o nav ocupe toda a largura */
   position: relative;
-  background-color: burlywood;
-}
-
-span {
-  color: #599820;
+  background-color: #fdfda7c1;
 }
 
 nav ul li {
@@ -52,7 +49,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #7DE5F4;
+  color: #D3A007;
   text-decoration: none;
   font-weight: bold;
 
@@ -63,20 +60,17 @@ nav ul li a:hover {
   transform: scale(1.2);
 }
 .btn-init {
-  background-color: #44868B;
-  color: black;
+    color: #FEDA00;
   text-decoration: none;
   font-weight: bold;
   padding: 5px 5px;
   border-radius: 90px;
+  border: 2px dotted #FEDA00;
   position: fixed;
   bottom: 10px;
   z-index: 1000;
 }
 
-.btn-right {
-  right: 5px;
-}
 
 .btn-left {
   left: 1215px;
@@ -84,56 +78,60 @@ nav ul li a:hover {
 
 .btn-init:hover {
   background-color: transparent;
-  color: #44868B;
-  border: 2px dotted #44868B;
+  color: #FEDA00;
+  border: 2px dotted #FEDA00;
   cursor: pointer;
   transition: .3s;
 }
 /*origem*/
+/* Estilos específicos para a seção sobre */
 .background-color-Sobre {
-  width: 100%;
-  /*  */
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  /*pra fazer a quebra de linha */
 }
 
-.background-color-Sobre img {
-  width: 200px;
-  /* tamanho da img */
+/* Estilos aplicados apenas às imagens dentro da classe .imgs */
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.imgs img {
+  width: calc(15% - 20px); /* Define que cada imagem ocupe 50% da largura menos a margem */
   height: auto;
   margin: 20px;
-  border: 4px dashed #44868B;
+  border: 4px dashed #FFEE00;
 }
 
-.background-color-Sobre img:hover {
-  transform: scale(1.6);
-  transition: .5s;
+.imgs img:hover {
+  transform: scale(0.6);
+  transition: 0.5s;
 }
 
+/* Estilos para o texto */
 .Text-sobre {
-  /*  fazer a quebra do texto */
-  width: 700px;
+  width: 600vh;
+  height: auto;
 }
 
 .main-sobre {
   display: flex;
-  /* pra ficar um do lado do outro */
   align-items: center;
   justify-content: space-around;
   margin: 20px 30px;
-  /* pra div ficar centralizada */
 }
 
 .Text-sobre h2 {
   letter-spacing: 3px;
-  color: #44868B;
+  color: #D3A007;
   font-size: 45px;
   margin-bottom: 40px;
-  /* afastamento do paragrafo */
 }
 
 .Text-sobre h5 {
-  /*  */
   color: black;
   letter-spacing: 2px;
   font-size: 35px;
@@ -141,25 +139,24 @@ nav ul li a:hover {
 }
 
 .Text-sobre p {
-  /*  */
   color: black;
   letter-spacing: 1px;
   line-height: 32px;
-  /* espaço entre as linhas */
   font-size: 25px;
   margin-bottom: 20px;
 }
 
 .Text-sobre span {
-  color: #7DE5F4;
+  color: #D3A007;
 }
 
 .Text-sobre p span {
-  color: #599820;
+  color: #D3A007;
   text-shadow: 2px 2px 10px #44868B;
   font-weight: bold;
   letter-spacing: 2px;
 }
+
 /*prevençao*/
 .teste-projeto {
   width: 100%;
