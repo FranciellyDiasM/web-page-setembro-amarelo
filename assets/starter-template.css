@@ -31,12 +31,16 @@ nav h2 {
 span {
   color: #FEDA00;
 }
+nav h2 img{
+  width: 100px;
+  
+}
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 55px 0;
+  padding: 35px 0;
   /* Ajuste o padding conforme necessário */
   width: 100%;
   /* Garante que o nav ocupe toda a largura */
