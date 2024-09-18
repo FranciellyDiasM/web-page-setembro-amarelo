@@ -1,14 +1,14 @@
-
-
 .icon-list {
   padding-left: 0;
   list-style: none;
 }
+
 .icon-list li {
   display: flex;
   align-items: flex-start;
   margin-bottom: .25rem;
 }
+
 .icon-list li::before {
   display: block;
   flex-shrink: 0;
@@ -18,6 +18,7 @@
   content: "";
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23212529' viewBox='0 0 16 16'%3E%3Cpath d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z'/%3E%3C/svg%3E") no-repeat center center / 100% auto;
 }
+
 /*  #FDFDA7   #FDFD22   #FFEE00  #FFDF32 #FEDA00  #D3A007  */
 
 /*cabeçalho navegação*/
@@ -28,12 +29,14 @@ nav h2 {
   letter-spacing: 2px;
   margin-left: 20px;
 }
+
 span {
   color: #FEDA00;
 }
-nav h2 img{
+
+nav h2 img {
   width: 100px;
-  
+
 }
 
 nav {
@@ -65,10 +68,9 @@ nav ul li a:hover {
   color: #44868B;
   transform: scale(1.2);
 }
+
 .btn-init {
-    color: #FEDA00;
-  text-decoration: none;
-  font-weight: bold;
+  color: #FEDA00;
   padding: 5px 5px;
   border-radius: 90px;
   border: 2px dotted #FEDA00;
@@ -77,9 +79,12 @@ nav ul li a:hover {
   z-index: 1000;
 }
 
+.btn-init img {
+  width: 30px;
+}
 
-.btn-left {
-  left: 1215px;
+.btn-rigth {
+  right: 20px;
 }
 
 .btn-init:hover {
@@ -89,6 +94,7 @@ nav ul li a:hover {
   cursor: pointer;
   transition: .3s;
 }
+
 /*origem*/
 /* Estilos específicos para a seção sobre */
 .background-color-Sobre {
@@ -106,7 +112,7 @@ nav ul li a:hover {
 }
 
 .imgs img {
-  width: 300px; 
+  width: 300px;
   height: auto;
   margin: 10px;
   border: 4px dashed #FFEE00;
@@ -196,7 +202,8 @@ nav ul li a:hover {
   border: 1px solid #FDFD22;
   border-radius: 10px;
   box-shadow: 0 4px 8px #FDFD22;
-  overflow: hidden;/* Previne que o conteúdo saia da div */
+  overflow: hidden;
+  /* Previne que o conteúdo saia da div */
 }
 
 .projeto-1 h5 {
@@ -216,7 +223,8 @@ nav ul li a:hover {
   color: black;
   width: 100%;
   margin-right: 20px;
-  word-wrap: break-word;/* Quebra de linha automática */
+  word-wrap: break-word;
+  /* Quebra de linha automática */
 }
 
 .fotos {
@@ -243,7 +251,11 @@ nav ul li a:hover {
   width: 100%;
   margin-right: 25px;
 }
-footer{
+
+footer {
   margin: 30px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
